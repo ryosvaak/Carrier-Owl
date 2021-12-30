@@ -3,9 +3,20 @@ subject: 'cat:cs.*'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        human pose: 3
+        skeleton: 3
+        keypoint: 3
+        pose estimation: 3
+        action recognition: 3
+        surveillance: 3
+        tracking: 3
+        action classification: 3
+        video understanding: 3
+        video recognition: 3
+        multi-person: 2
+        anomaly detection: 2
+        video: 1
+        dataset: 2
 
 # 通知の閾値
-score_threshold: 0
+score_threshold: 3
