@@ -52,6 +52,7 @@ def search_keyword(
         abstract = article['summary']
         score, hit_keywords = calc_score(abstract, keywords)
         if (score != 0) and (score >= score_threshold):
+            title = title.replace('\n', '')
             title_trans = get_translated_text('ja', 'en', title)
             abstract = abstract.replace('\n', '')
             abstract_trans = get_translated_text('ja', 'en', abstract)
