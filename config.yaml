@@ -9,14 +9,15 @@ keywords:
         pose estimation: 3
         action recognition: 3
         surveillance: 3
-        tracking: 3
         action classification: 3
         video understanding: 3
         video recognition: 3
         multi-person: 2
+        tracking: 2
         anomaly detection: 2
         video: 1
-        dataset: 2
+        dataset: 1
+        \\url: 3
 
 # 通知の閾値
 score_threshold: 3
