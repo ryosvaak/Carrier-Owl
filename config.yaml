@@ -8,6 +8,8 @@ keywords:
         keypoint: 3
         pose estimation: 3
         action recognition: 3
+        activity recognition: 3
+        scene recognition: 3
         surveillance: 3
         action classification: 3
         video understanding: 3
